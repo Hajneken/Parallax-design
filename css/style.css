@@ -23,16 +23,16 @@ body, html {
 }
 
 .pimg1{
-    background-image: url('../img/hynek_landing.png');
+    background-image: url('../img/picture1.jpg');
     min-height: 100vh;
 }
 
 .pimg2{
-    background-image: url('../img/pexels-photo-270348.jpeg');
+    background-image: url('../img/picture2.jpeg');
     min-height: 400px;
 }
 .pimg3{
-    background-image: url('../img/pexels-photo-368893.jpeg');
+    background-image: url('../img/picture3.jpeg');
     min-height: 400px;
 }
 
