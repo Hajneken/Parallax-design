@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-style: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: rgb(110, 110, 95);
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.8 ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* this makes the parallax effect happen
+    fixed = paralax
+    scroll = normal
+     */
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url('../img/hynek_landing.png');
+    min-height: 100vh;
+}
+
+.pimg2{
+    background-image: url('../img/pexels-photo-270348.jpeg');
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url('../img/pexels-photo-368893.jpeg');
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: rgb(119, 123, 175);
+    color: rgb(49, 44, 44);
+}
+
+.section-light {
+    background-color: rgb(7, 11, 73);
+    color: rgb(227, 201, 238);
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-style: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111111;
+    color: white;
+    padding: 20px;
+}
+
+.ptext .border .trans{
+    background-color: transparent;
+}
+
+@media (max-width: 568px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll;
+    }
+}
